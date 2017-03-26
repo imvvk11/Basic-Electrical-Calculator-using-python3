@@ -27,7 +27,7 @@ elif your_choice == 2:
 		voltage = float(input("Enter the value of voltage in volts: "))
 		resistance = float(input("Enter the value of resistance in ohms: "))
 		print("You entered voltage = %s volts and resistance = %s ohms"%(voltage, resistance))
-		print("Now your answer in Ampere is:  ")
+		print("Now your answer in Ampere is: ")
 		print(Current(voltage, reistance))
 		
 elif your_choice == 3:
