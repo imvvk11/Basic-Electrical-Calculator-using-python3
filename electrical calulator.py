@@ -1,21 +1,32 @@
-#Electircal calculator from python command line
-import math
+#Electircal calculator 
+import math   #imports math function
+
+
+def electCalculator():
+	print ("Let's do some some calculations for electrical calculator")
+	
+	
+	
 print("Select Electrical operation")
 print("1.Voltage")
 print("2.Current")
 print("3.Resistance")
 print("4.Power")
 
+
+
+""" Make your choice from the above parameters """
 your_choice = input("please select your choices from 1/2/3/4: ")
 
+
 def Voltage(current, resistance):
-		return current * resistance
+		return current * resistance #returns voltage
 def Current(voltage, resistance):
-		return voltage / resistance
+		return voltage / resistance #returns current
 def Resistance(voltage, current):
-		return voltage / current
-def Power(voltage,current):
-		return voltage * current
+		return voltage / current #returns resistance
+def Power(voltage,current): 
+		return voltage * current  #returns power
 if your_choice == 1:
 		current = float(input("Enter the value of current in Ampere: "))
 		resistance = float(input("Enter the value of resistance in ohms: "))
@@ -51,7 +62,8 @@ else:
 input("click enter to exit: " )
 
 
-
+if __name__ == "__main__":
+	calculator()
 
 
 
