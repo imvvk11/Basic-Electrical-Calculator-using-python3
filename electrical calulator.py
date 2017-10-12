@@ -3,7 +3,7 @@ import math   #imports math function
 
 
 def electCalculator():
-	print ("Let's do some some calculations for electrical calculator")
+	print ("Let's do some some electrical calculations")
 	
 	
 	
