@@ -1,6 +1,23 @@
 #Electircal calculator 
 import math   #imports math function
 
+"""
+class ElectricalCalculator(Object):
+	def __init__(self):
+		pass
+	def Voltage(self,current, resistance):
+		return current * resistance #returns voltage
+	def Current(self,voltage, resistance):
+		return voltage / resistance #returns current
+	def Resistance(self,voltage, current):
+		return voltage / current #returns resistance
+	def Power(self,voltage,current): 
+		return voltage * current  #returns power
+	def Power_factor(self,KW,KVA):
+		KW = int(input("Enter value in KW: "))
+		KVA = int(input("Enter value in KVA: "))
+		return KW / KVA
+"""	
 
 def electCalculator():
 	print ("Let's do some some electrical calculations")
